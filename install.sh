@@ -1,11 +1,16 @@
+echo "IS recommended to install git before launch this script"
+echo "The script will be executed in 10s ..."
+sleep 10
+
 sudo apt update
 sudo apt upgrade
 
-#
+
 #sudo apt install brew
 #sudo apt install snap
 
 #Dependicies
+sudo apt install git
 sudo apt install perl 
 sudo apt install python2
 sudo apt install libgd
