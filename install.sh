@@ -1,6 +1,6 @@
 echo "IS recommended to install git before launch this script"
-echo "The script will be executed in 10s ..."
-sleep 10
+echo "The script will be executed in 5s ..."
+sleep 5
 
 sudo apt update
 sudo apt upgrade
@@ -20,9 +20,12 @@ sudo apt install python-pip
 sudo apt install python3-pip
 sudo apt install python3-pip3
 sudo apt install qt5base-dev
+sudo apt install gem
+sudo apt install snap
 
 
 # Stegano for image
+sudo gem install zsteg
 sudo apt install pngchecker
 sudo apt install pngtools
 sudo apt install steghide 
@@ -33,6 +36,10 @@ sudo apt install gdb
 sudo apt install npiet-foogil
 sudo apt install binwalk #work on ubuntu only , errors on kali
 sudo apt install zopflypng
+sudo apt install stegolsb
+
+#Repo git for analysis images
+
 
 
 sudo apt install cargo
